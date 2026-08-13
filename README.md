@@ -19,7 +19,7 @@
 
 ```
 > whoami
-  Daniel · Fachinformatiker AE (in Ausbildung)
+  Daniel · Fachinformatiker AE 
 
 > focus
   Post-Quantum-Kryptografie · Rust
@@ -113,6 +113,6 @@
 
 <samp>散る桜 残る桜も 散る桜</samp>
 
-<sub><i>Fallende Blüten, bleibende Blüten — auch sie werden fallen.</i></sub>
+<sub><i>Fallende Blüten, bleibende Blüten - auch sie werden fallen.</i></sub>
 
 </div>
