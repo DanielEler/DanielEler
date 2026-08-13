@@ -4,6 +4,7 @@
 
 <br>
 
+<img src="https://img.shields.io/badge/Kali%20Linux-140A14?style=for-the-badge&logo=kalilinux&logoColor=74E6DF&labelColor=0B0710" alt="Kali Linux" />
 <img src="https://img.shields.io/badge/Rust-140A14?style=for-the-badge&logo=rust&logoColor=F9B9CD&labelColor=0B0710" alt="Rust" />
 <img src="https://img.shields.io/badge/Python-140A14?style=for-the-badge&logo=python&logoColor=F9B9CD&labelColor=0B0710" alt="Python" />
 <img src="https://img.shields.io/badge/JavaScript-140A14?style=for-the-badge&logo=javascript&logoColor=F9B9CD&labelColor=0B0710" alt="JavaScript" />
@@ -19,21 +20,20 @@
 
 ```
 > whoami
-  Daniel · Fachinformatiker AE 
+  Daniel · Fachinformatiker Anwendungsentwicklung
 
 > focus
-  Post-Quantum-Kryptografie · Rust
+  Cyber Security · Penetration Testing
+  Systeme so lange drücken, bis sie zeigen,
+  wo sie nachgeben
 
-> toolbox
-  Kali Linux   Pentest — Recon, Netz, Web
-  Tails OS     amnesisch, alles nur im RAM
+> arsenal
+  Kali Linux   Recon, Netz, Web, Exploitation
+  Tails OS     amnesisch, alles bleibt im RAM
+  Sandbox      Malware zerlegen und verstehen
 
-> learning
-  Malware-Analyse in der Sandbox
-  Angriffe verstehen, um sie abwehren zu können
-
-> current
-  PHANTOM — E2E-Verschlüsselung, die jeder prüfen kann
+> projects
+  PHANTOM — post-quantum E2E, gebaut in Rust
 ```
 
 <br>
@@ -113,6 +113,6 @@
 
 <samp>散る桜 残る桜も 散る桜</samp>
 
-<sub><i>Fallende Blüten, bleibende Blüten - auch sie werden fallen.</i></sub>
+<sub><i>Fallende Blüten, bleibende Blüten — auch sie werden fallen.</i></sub>
 
 </div>
