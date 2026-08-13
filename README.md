@@ -19,16 +19,22 @@
 
 ```
 > whoami
-  Daniel · Fachinformatiker Anwendungsentwicklung (in Ausbildung)
-> focus
-  Kryptografie · Rust · Automatisierung von allem, was zweimal passiert
-> current
-  PHANTOM — E2E-Verschlüsselung, die man nachprüfen kann
-```
+  Daniel · Fachinformatiker AE (in Ausbildung)
 
-Ich baue Dinge, die ich selbst brauche — meistens dann, wenn mich an den
-vorhandenen Lösungen etwas stört. Am spannendsten finde ich gerade die Frage,
-wie Verschlüsselung aussehen muss, die auch einem Quantencomputer standhält.
+> focus
+  Post-Quantum-Kryptografie · Rust
+
+> toolbox
+  Kali Linux   Pentest — Recon, Netz, Web
+  Tails OS     amnesisch, alles nur im RAM
+
+> learning
+  Malware-Analyse in der Sandbox
+  Angriffe verstehen, um sie abwehren zu können
+
+> current
+  PHANTOM — E2E-Verschlüsselung, die jeder prüfen kann
+```
 
 <br>
 
