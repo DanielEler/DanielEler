@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="DanielEler - Post-Quantum Crypto">
+  <title>DanielEler</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0710"/>
+      <stop offset="55%" stop-color="#1a0d18"/>
+      <stop offset="100%" stop-color="#0b0710"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="120%" r="70%">
+      <stop offset="0%" stop-color="#ff5c94" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ff5c94" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <path id="petal" d="M0 0C3-5 10-5 12 0C10 5 3 5 0 0Z"/>
+
+    <g id="blossom">
+      <g fill="#f9b9cd">
+        <ellipse cx="0" cy="-5" rx="3" ry="4.4"/>
+        <ellipse cx="0" cy="-5" rx="3" ry="4.4" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-5" rx="3" ry="4.4" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-5" rx="3" ry="4.4" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-5" rx="3" ry="4.4" transform="rotate(288)"/>
+      </g>
+      <circle r="1.5" fill="#fff0f5"/>
+    </g>
+
+    <style>
+      .fall { animation-name: fall; animation-timing-function: linear; animation-iteration-count: infinite; }
+      @keyframes fall {
+        0%   { transform: translate(0px, -40px) rotate(0deg); opacity: 0; }
+        12%  { opacity: 0.95; }
+        88%  { opacity: 0.95; }
+        100% { transform: translate(-55px, 280px) rotate(540deg); opacity: 0; }
+      }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="240" fill="url(#bg)"/>
+  <rect width="1000" height="240" fill="url(#glow)"/>
+
+  <g stroke="#74e6df" stroke-width="0.6" opacity="0.09">
+    <path d="M50 0V240M100 0V240M150 0V240M200 0V240M250 0V240M300 0V240M350 0V240M400 0V240M450 0V240M500 0V240M550 0V240M600 0V240M650 0V240M700 0V240M750 0V240M800 0V240M850 0V240M900 0V240M950 0V240"/>
+    <path d="M0 40H1000M0 80H1000M0 120H1000M0 160H1000M0 200H1000"/>
+  </g>
+
+  <g fill="#74e6df" opacity="0.16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+    <text x="24" y="222">0xF9B9CD</text>
+    <text x="140" y="222">ML-KEM-768</text>
+    <text x="268" y="222">X25519</text>
+    <text x="760" y="222">DOUBLE-RATCHET</text>
+    <text x="920" y="222">SEALED</text>
+  </g>
+
+  <g stroke="#4a2434" fill="none" stroke-linecap="round">
+    <path d="M-10 8C90 28 150 62 250 54" stroke-width="7"/>
+    <path d="M120 34C132 52 152 60 176 60" stroke-width="3"/>
+    <path d="M212 58C224 44 238 38 254 36" stroke-width="2.5"/>
+    <path d="M1010 22C930 44 880 74 800 66" stroke-width="6"/>
+    <path d="M888 52C876 68 858 76 838 78" stroke-width="2.5"/>
+  </g>
+  <g>
+    <use href="#blossom" transform="translate(72 22) scale(1.1)"/>
+    <use href="#blossom" transform="translate(104 34)"/>
+    <use href="#blossom" transform="translate(176 61) scale(0.9)"/>
+    <use href="#blossom" transform="translate(252 37) scale(1.05)"/>
+    <use href="#blossom" transform="translate(206 50) scale(0.8)"/>
+    <use href="#blossom" transform="translate(938 30) scale(1.05)"/>
+    <use href="#blossom" transform="translate(884 50) scale(0.9)"/>
+    <use href="#blossom" transform="translate(836 79) scale(1)"/>
+    <use href="#blossom" transform="translate(806 64) scale(0.8)"/>
+  </g>
+
+  <g fill="#f9b9cd">
+    <g transform="translate(150 0) scale(1)"><g class="fall" style="animation-duration:11s; animation-delay:-1s"><use href="#petal"/></g></g>
+    <g transform="translate(232 0) scale(0.7)"><g class="fall" style="animation-duration:14s; animation-delay:-6s"><use href="#petal"/></g></g>
+    <g transform="translate(305 0) scale(1.1)"><g class="fall" style="animation-duration:9s; animation-delay:-3s"><use href="#petal"/></g></g>
+    <g transform="translate(378 0) scale(0.8)"><g class="fall" style="animation-duration:13s; animation-delay:-8s"><use href="#petal"/></g></g>
+    <g transform="translate(444 0) scale(0.6)"><g class="fall" style="animation-duration:16s; animation-delay:-2s"><use href="#petal"/></g></g>
+    <g transform="translate(512 0) scale(1)"><g class="fall" style="animation-duration:10s; animation-delay:-5s"><use href="#petal"/></g></g>
+    <g transform="translate(588 0) scale(0.75)"><g class="fall" style="animation-duration:12s; animation-delay:-9s"><use href="#petal"/></g></g>
+    <g transform="translate(650 0) scale(1.05)"><g class="fall" style="animation-duration:15s; animation-delay:-4s"><use href="#petal"/></g></g>
+    <g transform="translate(722 0) scale(0.65)"><g class="fall" style="animation-duration:11.5s; animation-delay:-7s"><use href="#petal"/></g></g>
+    <g transform="translate(790 0) scale(0.9)"><g class="fall" style="animation-duration:13.5s; animation-delay:-1.5s"><use href="#petal"/></g></g>
+    <g transform="translate(866 0) scale(0.8)"><g class="fall" style="animation-duration:10.5s; animation-delay:-6.5s"><use href="#petal"/></g></g>
+    <g transform="translate(940 0) scale(1)"><g class="fall" style="animation-duration:14.5s; animation-delay:-3.5s"><use href="#petal"/></g></g>
+    <g transform="translate(60 0) scale(0.7)"><g class="fall" style="animation-duration:12.5s; animation-delay:-10s"><use href="#petal"/></g></g>
+    <g transform="translate(468 0) scale(0.85)"><g class="fall" style="animation-duration:17s; animation-delay:-11s"><use href="#petal"/></g></g>
+  </g>
+
+  <g text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <text x="500" y="122" fill="#ffe4ec" font-size="52" letter-spacing="12" filter="url(#soft)">DanielEler</text>
+    <text x="500" y="154" fill="#74e6df" font-size="14" letter-spacing="7" class="pulse">POST-QUANTUM · RUST · FIAE</text>
+  </g>
+
+  <rect x="0" y="236" width="1000" height="4" fill="#ff5c94" opacity="0.9"/>
+</svg>
