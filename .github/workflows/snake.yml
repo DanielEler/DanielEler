@@ -1,0 +1,33 @@
+# Ablegen unter: .github/workflows/snake.yml
+# Erzeugt taeglich die Snake-Animation in Sakura-Farben.
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Snake generieren
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # color_snake = die Schlange, color_dots = 5 Stufen von leer bis viele Commits
+          outputs: |
+            dist/github-snake.svg?color_snake=%23ff5c94&color_dots=%23f3e6ec,%23f0b8cb,%23e07a9d,%23c14a72,%238f2e4e
+            dist/github-snake-dark.svg?color_snake=%23ff5c94&color_dots=%232a1620,%235b2a3d,%238f4257,%23d4788f,%23ffc2d4
+
+      - name: In Branch "output" pushen
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
