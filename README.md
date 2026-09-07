@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/terminal-whoami.svg" alt="whoami — Daniel Eler, application developer, cyber security" width="100%">
+<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/terminal-whoami.svg" alt="whoami — Daniel Eler, Fachinformatiker Anwendungsentwicklung, Cyber Security" width="100%">
 
 </div>
 
