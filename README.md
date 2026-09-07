@@ -19,7 +19,7 @@
 
 </div>
 
-## `01 · RECON` — who is typing
+## `01 · RECON` — wer hier tippt
 
 <div align="center">
 
@@ -27,17 +27,17 @@
 
 </div>
 
-Application developer by training, with my head in the offensive security side of the field.
-I care less about whether something runs and more about where it gives way when you push on it.
-Everything here happens in my own lab: isolated, no third-party targets, no collateral damage.
+Fachinformatiker Anwendungsentwicklung, mit dem Kopf im Offensive-Security-Teil des Fachs.
+Mich interessiert weniger, ob etwas läuft, sondern wo es nachgibt, wenn man dagegen drückt.
+Alles hier passiert im eigenen Lab: isoliert, keine fremden Ziele, kein Kollateralschaden.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/net-recon.svg" alt="Network recon: topology and port scan in the lab" width="100%">
+<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/net-recon.svg" alt="Netzwerk-Recon: Topologie und Portscan im Lab" width="100%">
 
 </div>
 
-## `02 · ARSENAL` — what I work with
+## `02 · ARSENAL` — womit gearbeitet wird
 
 <div align="center">
 
@@ -49,24 +49,24 @@ Everything here happens in my own lab: isolated, no third-party targets, no coll
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/phantom-core.svg" alt="PHANTOM: post-quantum end-to-end encryption in Rust" width="100%">
+<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/phantom-core.svg" alt="PHANTOM: post-quantum Ende-zu-Ende-Verschlüsselung in Rust" width="100%">
 
 </div>
 
-**PHANTOM** is end-to-end encryption built to hold up once quantum computers start breaking
-key exchanges that were recorded years earlier: a hybrid of **ML-KEM-768 + X25519**, message keys
-from a **Double Ratchet**, sender metadata hidden by **Sealed Sender**, groups over **MLS**.
-The cryptographic core is public so anyone can read it and confirm there is no back door.
+**PHANTOM** ist Ende-zu-Ende-Verschlüsselung, die auch dann noch hält, wenn Quantenrechner
+jahrelang mitgeschnittene Schlüsselaustausche aufbrechen: hybrid aus **ML-KEM-768 + X25519**,
+Nachrichten-Keys aus einem **Double Ratchet**, Absender-Metadaten via **Sealed Sender**,
+Gruppen über **MLS**. Der Kern liegt offen, nachlesbar, dass keine Backdoor drin ist.
 
 <div align="center">
 
 <a href="https://github.com/DanielEler/phantom-core">
-<img src="https://img.shields.io/badge/phantom--core-read%20the%20source-0A0F18?style=for-the-badge&logo=rust&logoColor=00FF9C&labelColor=05070D" alt="Open phantom-core">
+<img src="https://img.shields.io/badge/phantom--core-quellcode%20lesen-0A0F18?style=for-the-badge&logo=rust&logoColor=00FF9C&labelColor=05070D" alt="Open phantom-core">
 </a>
 
 </div>
 
-## `04 · TELEMETRY` — what the logs say
+## `04 · TELEMETRY` — was die Logs sagen
 
 <div align="center">
 
@@ -81,12 +81,12 @@ The cryptographic core is public so anyone can read it and confirm there is no b
 
 </div>
 
-## `05 · UPLINK` — get in touch
+## `05 · UPLINK` — Kontakt
 
 <div align="center">
 
 <a href="https://github.com/DanielEler?tab=repositories">
-<img src="https://img.shields.io/badge/ALL%20REPOS-0A0F18?style=for-the-badge&logo=github&logoColor=00E5FF" alt="All repos"></a>
+<img src="https://img.shields.io/badge/ALLE%20REPOS-0A0F18?style=for-the-badge&logo=github&logoColor=00E5FF" alt="All repos"></a>
 <a href="https://github.com/DanielEler/phantom-core/discussions">
 <img src="https://img.shields.io/badge/DISCUSSIONS-0A0F18?style=for-the-badge&logo=githubdiscussions&logoColor=FF2EC4" alt="Discussions"></a>
 <img src="https://komarev.com/ghpvc/?username=DanielEler&style=for-the-badge&color=00FF9C&label=VISITORS" alt="Profile views">
@@ -94,20 +94,20 @@ The cryptographic core is public so anyone can read it and confirm there is no b
 </div>
 
 <details>
-<summary><code>06 · cat ~/.hidden/note.txt</code></summary>
+<summary><code>06 · cat ~/.hidden/notiz.txt</code></summary>
 
 <br>
 
 ```
 ┌─[ threat model ]──────────────────────────────────────────────┐
 │                                                               │
-│   adversary   patient, well funded, stores everything         │
-│   assumption  recorded today, decrypted tomorrow              │
-│   answer      post-quantum now, not in 2030                   │
+│   angreifer   geduldig, finanziert, speichert alles           │
+│   annahme     heute geloggt, morgen entpackt                  │
+│   antwort     post-quantum jetzt statt 2030                   │
 │                                                               │
-│   rule 1      no keys I did not generate myself               │
-│   rule 2      no logging I do not need                        │
-│   rule 3      trust nothing I cannot read for myself          │
+│   regel 1     keine keys von fremder hand                     │
+│   regel 2     kein logging ohne grund                         │
+│   regel 3     nichts glauben ohne quellcode                   │
 │                                                               │
 └───────────────────────────────────────────────────────────────┘
 ```
