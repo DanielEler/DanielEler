@@ -23,7 +23,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/terminal-whoami.svg?v=3?v=3" alt="whoami — Daniel Eler, application developer, cyber security" width="100%">
+<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/main/assets/terminal-whoami.svg" alt="whoami — Daniel Eler, application developer, cyber security" width="100%">
 
 </div>
 
@@ -73,8 +73,11 @@ The cryptographic core is public so anyone can read it and confirm there is no b
 <img src="https://github-readme-stats.vercel.app/api?username=DanielEler&show_icons=true&include_all_commits=true&count_private=true&border_radius=12&bg_color=05070D&title_color=00E5FF&text_color=C8E6FF&icon_color=00FF9C&border_color=12203A&ring_color=FF2EC4" alt="GitHub stats" height="180">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielEler&layout=compact&langs_count=8&border_radius=12&bg_color=05070D&title_color=00E5FF&text_color=C8E6FF&border_color=12203A" alt="Top languages" height="180">
 
+<img src="https://streak-stats.demolab.com?user=DanielEler&border_radius=12&background=05070D&border=12203A&stroke=12203A&ring=00E5FF&fire=FF2EC4&currStreakNum=C8E6FF&sideNums=00FF9C&currStreakLabel=00E5FF&sideLabels=5B7A9E&dates=5B7A9E" alt="Streak" height="180">
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DanielEler&bg_color=05070D&color=C8E6FF&line=00E5FF&point=FF2EC4&area=true&area_color=00E5FF&title_color=00E5FF&hide_border=true&radius=10" alt="Activity graph" width="100%">
 
+<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/output/github-snake.svg" alt="Contribution snake" width="100%">
 
 </div>
 
@@ -86,6 +89,7 @@ The cryptographic core is public so anyone can read it and confirm there is no b
 <img src="https://img.shields.io/badge/ALL%20REPOS-0A0F18?style=for-the-badge&logo=github&logoColor=00E5FF" alt="All repos"></a>
 <a href="https://github.com/DanielEler/phantom-core/discussions">
 <img src="https://img.shields.io/badge/DISCUSSIONS-0A0F18?style=for-the-badge&logo=githubdiscussions&logoColor=FF2EC4" alt="Discussions"></a>
+<img src="https://komarev.com/ghpvc/?username=DanielEler&style=for-the-badge&color=00FF9C&label=VISITORS" alt="Profile views">
 
 </div>
 
