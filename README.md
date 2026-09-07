@@ -66,21 +66,6 @@ Gruppen über **MLS**. Der Kern liegt offen, nachlesbar, dass keine Backdoor dri
 
 </div>
 
-## `04 · TELEMETRY` — was die Logs sagen
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=DanielEler&show_icons=true&include_all_commits=true&count_private=true&border_radius=12&bg_color=05070D&title_color=00E5FF&text_color=C8E6FF&icon_color=00FF9C&border_color=12203A&ring_color=FF2EC4" alt="GitHub stats" height="180">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielEler&layout=compact&langs_count=8&border_radius=12&bg_color=05070D&title_color=00E5FF&text_color=C8E6FF&border_color=12203A" alt="Top languages" height="180">
-
-<img src="https://streak-stats.demolab.com?user=DanielEler&border_radius=12&background=05070D&border=12203A&stroke=12203A&ring=00E5FF&fire=FF2EC4&currStreakNum=C8E6FF&sideNums=00FF9C&currStreakLabel=00E5FF&sideLabels=5B7A9E&dates=5B7A9E" alt="Streak" height="180">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DanielEler&bg_color=05070D&color=C8E6FF&line=00E5FF&point=FF2EC4&area=true&area_color=00E5FF&title_color=00E5FF&hide_border=true&radius=10" alt="Activity graph" width="100%">
-
-<img src="https://raw.githubusercontent.com/DanielEler/DanielEler/output/github-snake.svg" alt="Contribution snake" width="100%">
-
-</div>
-
 ## `05 · UPLINK` — Kontakt
 
 <div align="center">
@@ -94,7 +79,7 @@ Gruppen über **MLS**. Der Kern liegt offen, nachlesbar, dass keine Backdoor dri
 </div>
 
 <details>
-<summary><code>06 · cat ~/.hidden/notiz.txt</code></summary>
+<summary><code>05 · cat ~/.hidden/notiz.txt</code></summary>
 
 <br>
 
